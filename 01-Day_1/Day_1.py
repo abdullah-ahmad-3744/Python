@@ -49,3 +49,6 @@ print("Checking if",first_number, "not equal to", second_number, "=",first_numbe
 
 # Greater than Equal to (>=) Operator in Comparision Operator
 print("Checking if",first_number, ">=",second_number, "=",first_number >= second_number)
+
+# less than Equal to (<=) Operator in Comparision Operator
+print("Checking if",first_number, "<=",second_number, "=",first_number >= second_number)
