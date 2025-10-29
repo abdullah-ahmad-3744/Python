@@ -16,8 +16,17 @@ print ("Sum of", a , "and " , b, "= ",  a+b)
 first_number = 30 
 second_number = 10 
 # Addition of two numbers 
+print ("Addition in Arithmatic Operators")
 print( "Sum of",first_number, "and", second_number, "=",   first_number + second_number)
 # Subtraction of two number
+print ("Subtraction in Arithmatic Operators")
 print("Subtraction from", first_number, "of", second_number, "=", first_number - second_number)
-# Multiplication of two numbers 
+# Multiplication of two numbers
+print ("Multiplication in Arithmatic Operators") 
 print (first_number,"* by",second_number , "=" ,first_number * second_number)
+# Division of two numbers 
+print ("Division in Arithmatic Operators")
+print(first_number , "Divided by", second_number , "=", first_number / second_number)
+# Remainder of two numbers 
+print ("Remainder in Arithmatic Operators")
+print ("Remainder of",first_number, "% ", second_number, "=",first_number % second_number)
