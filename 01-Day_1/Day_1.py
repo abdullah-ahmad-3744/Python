@@ -79,3 +79,20 @@ print("Not Operator negates or reverse the output from True to Flase and vice ve
 print(not True)
 print(first_number > second_number)
 print (not (first_number > second_number))
+print()
+
+# And operator in Logical Operators
+print("And operator returns True only if both Conditions are Ture")
+print(True and True)
+print(True and False)
+print(False and True)
+print(False and False)
+print()
+
+#  or Operator in Logical Operators
+print("OR operator returns True only if only one Conditions is Ture from two conditions")
+print(True  or True)
+print(True  or False)
+print(False or  True)
+print(False or  False)
+print()
