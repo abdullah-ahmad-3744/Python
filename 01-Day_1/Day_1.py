@@ -9,10 +9,12 @@ b = 20
 print ("Value of a : ",a)
 print ("Value of b : ",b)
 
+
+
+# Operators in Python
 # Sum of a and b a+b
 print ("Sum of", a , "and " , b, "= ",  a+b)
-
-# Practicing arithmatic operators
+# Arithmatic Operators in Operators
 first_number = 30 
 second_number = 10 
 # Addition of two numbers 
@@ -33,3 +35,10 @@ print ("Remainder of",first_number, "% ", second_number, "=",first_number % seco
 # Power of numbers
 print("Power Operator in Arithmatic Operator")
 print(first_number,"Power ",second_number, "=",first_number ** second_number)
+
+
+
+
+# Relational or Comparision operators in Operators
+# Equal to operator in Comparision operator
+print ("Checking if",first_number, "is equal to", second_number,"=",first_number == second_number)
