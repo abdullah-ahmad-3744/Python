@@ -17,3 +17,5 @@ first_number = 30
 second_number = 10 
 # Addition of two numbers 
 print( "Sum of",first_number, "and", second_number, "=",   first_number + second_number)
+# Subtraction of two number
+print("Subtraction from", first_number, "of", second_number, "=", first_number - second_number)
