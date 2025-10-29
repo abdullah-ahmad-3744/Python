@@ -96,3 +96,45 @@ print(True  or False)
 print(False or  True)
 print(False or  False)
 print()
+
+
+
+# Conversion in Python
+print("This is Type Conversion")
+third_number = 10.5
+# Int + Int 
+print("int + int = int as ",first_number, "+", second_number, "=", first_number + second_number)
+print()
+# int + float
+print("int + float = float as ",first_number, "+", third_number, "=", first_number + third_number)
+print()
+# int + str
+name = "Muhammad Abdullah"
+# print("int + str return type error", first_number + name)
+print()
+
+# int + boolean 
+print("int + bool return int as",first_number ,"+",True , "=",first_number + True) 
+print("int + bool return int as",first_number ,"+",False , "=",first_number + False) 
+print()
+
+# int + none
+# print("int + none returns type error", first_number + None)
+print()
+
+# str + int 
+# print("str + int returns type error",name + first_number)
+print()
+
+# str + str 
+user_name2 = "Baloch"
+print("str + str returns str  ", name +  " ",user_name2)
+print()
+
+# str + float
+# print("str + float returns type error",name + third_number)
+print()
+
+# str + bool
+# print("str + bool returns the type error",name + True)
+print()
