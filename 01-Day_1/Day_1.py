@@ -138,3 +138,21 @@ print()
 # str + bool
 # print("str + bool returns the type error",name + True)
 print()
+
+
+
+
+# Type casting in Python
+new_number = "40"
+# print(first_number + new_number) returns tyoe error becuase of the type of the data
+print(first_number + int (new_number))
+print()
+
+
+user_age = input("Enter your age :- ")
+print("User age is", user_age)
+print()
+
+
+user_input = int(input("Enter your favorite number :- ")) #using int becuase user input is treated as the string even if it is an integer or float
+print("Sum of ", first_number, "+", user_input , "=", user_input + first_number)
