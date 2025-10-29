@@ -30,3 +30,6 @@ print(first_number , "Divided by", second_number , "=", first_number / second_nu
 # Remainder of two numbers 
 print ("Remainder in Arithmatic Operators")
 print ("Remainder of",first_number, "% ", second_number, "=",first_number % second_number)
+# Power of numbers
+print("Power Operator in Arithmatic Operator")
+print(first_number,"Power ",second_number, "=",first_number ** second_number)
