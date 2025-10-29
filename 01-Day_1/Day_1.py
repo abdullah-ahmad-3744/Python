@@ -70,3 +70,12 @@ print()
 # less than Equal to (<=) Operator in Comparision Operator
 print("Checking if",first_number, "<=",second_number, "=",first_number >= second_number)
 print()
+
+
+
+# Logical Operators in Operators
+# Not Operator in Logical Operators
+print("Not Operator negates or reverse the output from True to Flase and vice versa")
+print(not True)
+print(first_number > second_number)
+print (not (first_number > second_number))
