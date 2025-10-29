@@ -11,3 +11,9 @@ print ("Value of b : ",b)
 
 # Sum of a and b a+b
 print ("Sum of", a , "and " , b, "= ",  a+b)
+
+# Practicing arithmatic operators
+first_number = 30 
+second_number = 10 
+# Addition of two numbers 
+print( "Sum of",first_number, "and", second_number, "=",   first_number + second_number)
