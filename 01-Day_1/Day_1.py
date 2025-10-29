@@ -42,3 +42,6 @@ print(first_number,"Power ",second_number, "=",first_number ** second_number)
 # Relational or Comparision operators in Operators
 # Equal to operator in Comparision operator
 print ("Checking if",first_number, "is equal to", second_number,"=",first_number == second_number)
+
+# Not Equal to Operator in Comparision Operators
+print("Checking if",first_number, "not equal to", second_number, "=",first_number != second_number)
