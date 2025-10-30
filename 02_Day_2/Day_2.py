@@ -52,3 +52,17 @@ print()
 print("If it does not ends with the substring then it returns = ",string_1.endswith("python"))
 print("If it ends with the substring then it returns = ",string_1.endswith("Python"))
 print()
+
+
+# title() Capitalize the first letter of each word
+print(string_1.title())
+print()
+
+# isalnum() checks if all the characters are alphanumeric
+print("Checking if all the characters are alphanumeric or not , , if not then it returns = ",string_1.isalnum())
+print()
+
+
+# isalpha() checking if all the characters are alphatic
+print("Checking if all the characters are alphabets or not , , if not then it returns = ",string_1.isalpha())
+print(string_1)
