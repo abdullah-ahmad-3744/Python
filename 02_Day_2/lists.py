@@ -1,5 +1,4 @@
 # lists in python
-
 list1= [1,2,9,4,8,6,7,5,3]
 print(type(list1))
 
