@@ -54,3 +54,11 @@ print()
 # max(tuple) Returns the largest or highest element in the tuple
 print("Maximum element in the tuple =",max(tuple1))
 print()
+
+
+
+# Sorting and Ordering Methods
+# sorted() sorts the elements in an ascending order
+print("Unsorted tuple = ", tuple1)
+print("Sorted tuple =",sorted(tuple1))
+print()
