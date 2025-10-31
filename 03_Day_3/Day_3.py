@@ -43,3 +43,14 @@ print()
 print("Checking if the element in tuple is present it returns = ",4 in tuple1)
 print("Checking if the element in tuple is not present in then it returns = ",10 in tuple1)
 print()
+
+
+
+# Mathematical methods of tuples
+# sum(tuple) Returns the sum of all elements of the tuple
+print("Sum of all elements in the tuple = ",sum(tuple1))
+print()
+
+# max(tuple) Returns the largest or highest element in the tuple
+print("Maximum element in the tuple =",max(tuple1))
+print()
