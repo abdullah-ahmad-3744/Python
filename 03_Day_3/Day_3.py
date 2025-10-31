@@ -26,3 +26,20 @@ print()
 print("Minimum or lowest value in tuple = ",min(tuple1))
 print()
 
+
+
+# Searching and counting methods
+
+# index(element) gives the index of the that element in the tuple
+print("Index of the given element = ",tuple1.index(3))
+print()
+
+# count(element) returns how many tinmes an element is present in the tuple
+print(tuple1.count(9))
+print(tuple1.count(3))
+print()
+
+# in  in in tuples
+print("Checking if the element in tuple is present it returns = ",4 in tuple1)
+print("Checking if the element in tuple is not present in then it returns = ",10 in tuple1)
+print()
