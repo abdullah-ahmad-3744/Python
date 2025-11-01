@@ -63,3 +63,9 @@ print(dictionary2.get("address"))
 print()
 
 
+# Adding and Updating methods
+
+# update({key : value}) ====> updates the existing dictionary
+dictionary1.update({"city" : "Lahore"})
+dictionary1.update({"address" : ""})
+print(dictionary1)
