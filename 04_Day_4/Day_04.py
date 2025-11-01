@@ -7,3 +7,8 @@ dictionary1 = {
 }
 
 print(dictionary1)
+print()
+
+# Printing the value of a key
+print("Name = ",dictionary1["name"])
+print("Age = ",dictionary1["age"])
