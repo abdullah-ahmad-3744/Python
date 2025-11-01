@@ -97,3 +97,13 @@ print()
 
 
 
+# Copiying of the Dictionary
+
+# copy() returns a shalow copy of the Dictionary
+print("Original Dictionary = ", dictionary2)
+copied_dictionary = dictionary2.copy()
+print("Copied Dictionary = ",copied_dictionary)
+print()
+
+
+
