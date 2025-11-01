@@ -69,3 +69,31 @@ print()
 dictionary1.update({"city" : "Lahore"})
 dictionary1.update({"address" : ""})
 print(dictionary1)
+print()
+
+
+
+# Removing and Clearing methods
+
+# pop() =====>   removes a key from the dictionary and retuns the dictionary with the remaining key-value
+dictionary1.pop("address")
+print(dictionary1)
+print()
+
+
+# popitem()  =====> Removes the last insert key-value pair
+dictionary1.update({"address" : ""})
+print("Before = ",dictionary1)
+dictionary1.popitem()
+print("After = ",dictionary1)
+print()
+
+
+# clear() ====> removes all the key-value pair or makes a dictionary empty
+
+dictionary1.clear()
+print("Using clear() = ",dictionary1)
+print()
+
+
+
