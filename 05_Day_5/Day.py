@@ -134,3 +134,8 @@ print()
 commonly_used_methods = {'add()', 'update()', 'remove()', 'discard()','union()', 'intersection()', 'difference()','issubset()', 'issuperset()'}
 
 print("Most commonly used methods of sets = ",commonly_used_methods)
+print()
+print()
+
+
+print("Day 5 of practicing Python done")
