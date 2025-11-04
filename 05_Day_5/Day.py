@@ -35,3 +35,39 @@ set1.update([10,20,30,40])
 print("Set1 after updation = ", set1)
 print()
 print()
+
+
+
+
+# Elements removing methods
+
+# remove()  ====> Removes the element and error if element not found
+print("Set1 before = ", set1)
+set1.remove(100)
+print("Set1 after removing an element = ", set1)
+# set1.remove(1000) // error becuase element is not found
+# print(set1)
+print()
+
+# discard() ====> Removes the element and no error if element not found
+print(set1)
+set1.discard(40)
+print(set1)
+print()
+set1.discard(1000) # no error because of discard method
+print(set1)
+print()
+
+
+# pop()   ====> Removes and returns a random element
+print()
+set1.pop()
+print(set1)
+print()
+
+# clear() ====> Removes all elements from the set
+set2 = {'a', 'b', 'c', 'd', 'e'}
+print("Set 2 = ", set2)
+set2.clear()
+print("Set 2 after clear method = ", set2)
+print()
