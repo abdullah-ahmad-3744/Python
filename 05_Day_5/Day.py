@@ -97,3 +97,19 @@ print("Difference Set = ",difference_set)
 difference_set2 = set3.difference(set1)
 print("Difference Set 2 = ", difference_set2)
 print()
+print()
+
+
+
+# Comparision and Relation methods
+
+# issubset()  ==> checks if all elements of set 1 present in set 2 and returns True.
+subset_set = set1.issubset(set3)
+print("Checking for subset = ",subset_set)
+print()
+
+# issuperset()   ====> Checks if set 1 contains all elements of set 2 and returns True.
+super_set = set1.issuperset(set3)
+print("Checking for Superset = ",super_set)
+print()
+print()
