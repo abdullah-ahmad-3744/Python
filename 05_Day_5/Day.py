@@ -127,3 +127,10 @@ print(copied_set)
 print(set1)
 print()
 print()
+
+
+# Most common and used methods of sets
+
+commonly_used_methods = {'add()', 'update()', 'remove()', 'discard()','union()', 'intersection()', 'difference()','issubset()', 'issuperset()'}
+
+print("Most commonly used methods of sets = ",commonly_used_methods)
