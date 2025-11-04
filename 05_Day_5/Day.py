@@ -113,3 +113,17 @@ super_set = set1.issuperset(set3)
 print("Checking for Superset = ",super_set)
 print()
 print()
+
+
+
+# Copying a set 
+
+# copy() =====> Retruns a shollow copy of the set 
+copied_set = set1.copy()
+print("Copied set   = ",copied_set)
+print("Original Set = ",set1)
+copied_set.pop()
+print(copied_set)
+print(set1)
+print()
+print()
