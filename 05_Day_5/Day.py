@@ -71,3 +71,29 @@ print("Set 2 = ", set2)
 set2.clear()
 print("Set 2 after clear method = ", set2)
 print()
+
+
+
+# Set operation 
+
+set3 = {'a', 'b', 'c', 'd', 'd', 'e', 'f'}
+# union method ====> Combines the elements of set 1 and set 2
+union_set = set1.union(set3)
+print("Union of set 1 and set 2 = ",union_set)
+print()
+
+
+# intersection()  ====> Returns the common elemtns of set1 and set2 only
+
+intersection_set = set1.intersection(set3)
+print("intersection of Set 1 and Set 2 = ", intersection_set)
+print()
+
+
+# difference()  ===> returns the elements which are present in one but not in other set 
+
+difference_set = set1.difference(set3)
+print("Difference Set = ",difference_set)
+difference_set2 = set3.difference(set1)
+print("Difference Set 2 = ", difference_set2)
+print()
