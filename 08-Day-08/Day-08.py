@@ -10,9 +10,11 @@ variable_1 = int(input("Enter your first number :- "))
 variable_2 = int(input("Enter your second number :- "))
 boolean_varaible = bool(input("Enter a boolean value : True or False :- "))
 
-if variable_1 or variable_2 >= 0 and boolean_varaible == False :
-    print("True")
+
+if variable_1 >= 0 and variable_2 < 0  or variable_1 >= 0 and variable_2 < 0 and boolean_varaible == False :
+    print("True1")
 elif variable_1 and variable_2 < 0 and boolean_varaible == True :
-    print("True")
+    print("True2")
 else:
     print("Flase")
+    
