@@ -1,0 +1,1 @@
+# Given a positive integer x, the task is to print the numbers from 1 to x in the order as 1 to the power 2 , 2 to the power 2, 3 to the power 2 , 4 to the power 2 , 5 to the power 2, ... (in increasing order).
