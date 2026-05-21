@@ -5,3 +5,4 @@
 # In any other case, you print the number itself
 
 # Note: You should add a newline character after print() statement.
+print("Hello World")
