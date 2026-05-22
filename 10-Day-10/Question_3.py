@@ -3,4 +3,16 @@
 # If operator equals to 2 subtract b from a, then print the result as a string.
 # If operator equals to 3 multiply a and b, then print the result as a string.
 # If operator equals to any another number, print "Invalid Input"(without quotes).
-# Note: Do not add a new line at the end
+
+
+first_number = int(input("Enter your first number:- "))
+second_number = int(input("Enter your second number:- "))
+operand = int(input("Enter 1 for adding, 2 for substration, 3 for multiplication:- "))
+if operand == 1 :
+    print(first_number, "+", second_number, "=",first_number + second_number)
+elif operand == 2 :
+    print(first_number, "-", second_number, "=",second_number - first_number)
+elif operand == 3 : 
+    print(first_number, "*", second_number, "=",first_number * second_number)
+else :
+    print("Invalid Operator")
