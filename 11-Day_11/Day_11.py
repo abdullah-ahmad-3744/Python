@@ -51,3 +51,15 @@ file_2.write("I am using the w+ opertor while learning file I/O in Python.")
 # a+ is used for reading and writing the file , The pointer is positioned at the end , it only updates the file by adding the new content at the end without removing the previous content
 file_2 = open("demo.txt", "a+")
 file_2.write("I am using the Append + operation")
+
+
+
+# Using operation with "With" sytax
+
+with open("demo.txt", "r") as f :
+    data = f.read()
+    print("Sample file data : ", data)
+    
+
+with open("demo.txt", "w") as f :
+    f.write("I am writing the demo file using the write opration with the help of 'with' sytanx")
