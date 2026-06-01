@@ -1,4 +1,1 @@
-This is a demo file.
-This is a new line in demo file.
-This is another new line in demo file.
-**************************************************
+I am updating the Python file and erasing all the previous text.

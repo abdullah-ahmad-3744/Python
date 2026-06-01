@@ -20,3 +20,8 @@ second_line = file_2.readline()
 print("Second Line ====== ", second_line)
 file_1.close()
 file_2.close()
+
+#  Write operation 
+file_2 = open("demo.txt", "w")
+file_2.write("I am updating the Python file and erasing all the previous text.")
+file_2.close()
