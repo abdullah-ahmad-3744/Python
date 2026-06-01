@@ -34,3 +34,15 @@ file_2.write("Hello , I am learning file i/o in python and it seems very interst
 
 file_2 = open("demo.txt", "a")
 file_2.write("\n After that I will move to the OOPS in Python and then I will learn Djnago")
+
+# r+ and w+ operations
+
+
+# r+ operator is used for reading and writing the file. It positioned the pointer in the beginning and starts replacoing the characters from the beginning
+file_2 = open("demo.txt", "r+")
+file_2.write("I am using r+ operator")
+
+
+# w+ operator is used for opening and reading the file, it trancats the file and rewrite the file.
+file_2 = open("demo.txt", "w+")
+file_2.write("I am using the w+ opertor while learning file I/O in Python.")
