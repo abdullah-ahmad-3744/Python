@@ -18,3 +18,5 @@ print("First Line in Demo File = ",line_1)
 # Reading 2nd line in a file
 second_line = file_2.readline()
 print("Second Line ====== ", second_line)
+file_1.close()
+file_2.close()
