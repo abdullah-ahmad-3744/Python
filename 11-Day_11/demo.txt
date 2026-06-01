@@ -1,1 +1,2 @@
-I am updating the Python file and erasing all the previous text.
+Hello , I am learning file i/o in python and it seems very intersting
+ After that I will move to the OOPS in Python and then I will learn Djnago

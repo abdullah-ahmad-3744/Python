@@ -25,3 +25,12 @@ file_2.close()
 file_2 = open("demo.txt", "w")
 file_2.write("I am updating the Python file and erasing all the previous text.")
 file_2.close()
+
+
+file_2 = open("demo.txt", "w")
+file_2.write("Hello , I am learning file i/o in python and it seems very intersting.")
+
+# updation using append instead of write operation
+
+file_2 = open("demo.txt", "a")
+file_2.write("\n After that I will move to the OOPS in Python and then I will learn Djnago")
