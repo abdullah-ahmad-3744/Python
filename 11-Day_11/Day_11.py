@@ -63,3 +63,8 @@ with open("demo.txt", "r") as f :
 
 with open("demo.txt", "w") as f :
     f.write("I am writing the demo file using the write opration with the help of 'with' sytanx")
+    
+
+
+import os 
+os.remove("sample.txt")
