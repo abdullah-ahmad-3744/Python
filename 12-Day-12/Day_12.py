@@ -23,3 +23,17 @@ print("=======================================================================")
 print(new_data)
 with open("practice.txt", "w") as f :
     f.write(new_data)
+    
+    
+    
+
+# Search if the word "learning" exists in the file or not.
+print("===============================================================================================")
+targer_word = "learning"
+with open("practice.txt", "r") as f :
+    data = f.read()
+    print("Whole data = ", data)
+    if(data.find(targer_word) != -1) :
+        print("Found")
+    else:
+        print("Not found")
