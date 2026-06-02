@@ -14,15 +14,16 @@ with open("practice.txt", "w") as f :
     f.write("Hi everyone\nwe are learning File i/o\nusing Java\nI like programming in Java")
 
 # Write a function that replaces all the occurance of the Java with Python
-
-with open("practice.txt", "r") as f :
-    data = f.read()
-    print(data)
-new_data = data.replace("Java", "Python")
-print("=======================================================================")
-print(new_data)
-with open("practice.txt", "w") as f :
-    f.write(new_data)
+def check_for_word ():
+    with open("practice.txt", "r") as f :
+        data = f.read()
+        print(data)
+    new_data = data.replace("Java", "Python")
+    print("=======================================================================")
+    print(new_data)
+    with open("practice.txt", "w") as f :
+        f.write(new_data)
+check_for_word()
     
     
     
