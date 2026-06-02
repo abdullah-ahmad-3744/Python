@@ -8,11 +8,18 @@
 # using Java
 # I like programming in Java"
 
-file_1 = open("sample.txt", "w")
-file_1.write("Hi everyone \n we are learning File i/o \n using Python \n I like programming in Python")
 
 # Solving question using with syntax approach
 with open("practice.txt", "w") as f :
-    f.write("Hi everyone \n we are learning File i/o \n using Python \n I like programming in Python")
+    f.write("Hi everyone\nwe are learning File i/o\nusing Java\nI like programming in Java")
 
 # Write a function that replaces all the occurance of the Java with Python
+
+with open("practice.txt", "r") as f :
+    data = f.read()
+    print(data)
+new_data = data.replace("Java", "Python")
+print("=======================================================================")
+print(new_data)
+with open("practice.txt", "w") as f :
+    f.write(new_data)
