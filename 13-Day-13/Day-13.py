@@ -21,5 +21,15 @@ class Cars :
     
 car_1 = Cars()
 print("Object Car_1 of the Cars class : ",car_1)
-    
+
+class Students:
+    def __init__ (self) :
+        print("Adding a new student in the database...")
+    name = "Ali Ahmad"
+    age = 24
+    department = "Computer Science"
+
+student_1 = Students()
+
+        
 
