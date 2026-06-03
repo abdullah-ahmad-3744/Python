@@ -12,3 +12,14 @@ class User :
 # Creating an instance from the class
 user_1 = User()
 print("User name : ",user_1.name)
+
+# Creating a class of Cars
+class Cars :
+    color = "Black"
+    number_of_wheels = 4
+    engine_type = "Electric"
+    
+car_1 = Cars()
+print("Object Car_1 of the Cars class : ",car_1)
+    
+
