@@ -8,3 +8,7 @@ class User :
     age = 23
     city = "Lahore"
 
+
+# Creating an instance from the class
+user_1 = User()
+print("User name : ",user_1.name)
