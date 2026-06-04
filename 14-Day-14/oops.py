@@ -10,6 +10,11 @@ class Students:
         print('Constructor of Class Student...')
         self.name = name
         self.age = age
+        
+    # methods in OOP'S 
+    def greetings (self) :
+        print("Hello,", self.name)
+    
 student_1 = Students("Ali Ahmad", 24)
 print("Studnet_1 name : ",student_1.name)
 print("Student_1 age : ",student_1.age)
@@ -18,3 +23,5 @@ print("=========================================================================
 student_2 = Students("Mahad Khan", 26);
 print("Studnet_2 name : ", student_2.name)
 print("Studnet_2 age : ", student_2.age)
+student_1.greetings()
+student_2.greetings()
