@@ -1,6 +1,11 @@
 print("OOP'S in Python ")
 
 class Students:
+    # Default constructor
+    def __init__(self) :
+        print("Default constructor")
+        
+    # Parameterized constructors
     def __init__(self,name,age):
         print('Constructor of Class Student...')
         self.name = name
