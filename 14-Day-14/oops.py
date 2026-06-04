@@ -14,6 +14,8 @@ class Students:
     # methods in OOP'S 
     def greetings (self) :
         print("Hello,", self.name)
+    def exams_participants(self) :
+        print(f"{self.name} can participate in exams")
     
 student_1 = Students("Ali Ahmad", 24)
 print("Studnet_1 name : ",student_1.name)
@@ -25,3 +27,4 @@ print("Studnet_2 name : ", student_2.name)
 print("Studnet_2 age : ", student_2.age)
 student_1.greetings()
 student_2.greetings()
+student_1.exams_participants()
