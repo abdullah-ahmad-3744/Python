@@ -5,7 +5,11 @@ class Students:
         print('Constructor of Class Student...')
         self.name = name
         self.age = age
-        
 student_1 = Students("Ali Ahmad", 24)
 print("Studnet_1 name : ",student_1.name)
 print("Student_1 age : ",student_1.age)
+# Creating another student object from the Students class
+print("===========================================================================================")
+student_2 = Students("Mahad Khan", 26);
+print("Studnet_2 name : ", student_2.name)
+print("Studnet_2 age : ", student_2.age)
