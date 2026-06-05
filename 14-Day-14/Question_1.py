@@ -10,6 +10,6 @@ class Students :
         for i in marks:
             sum += i
         average = sum / len(marks)
-        print(f"Average of {marks[0]}, {marks[1]} and {marks[2]} = {average}")
-student_1 = Students("Abdullah Ahamad", [10,20,30])
+        print(f"Hi, {self.name}, Average of your marks {marks[0]}, {marks[1]} and {marks[2]} is = {average}")
+student_1 = Students("Abdullah Ahamad", [93,82,79])
 student_1.get_average()
