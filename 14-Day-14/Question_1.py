@@ -5,7 +5,11 @@ class Students :
         self.marks = marks
          
     def get_average (self) :
-        print((self.marks[0] +  self.marks[1] +  self.marks[2])/ len(self.marks))
-
+        marks = self.marks
+        sum =  0
+        for i in marks:
+            sum += i
+        average = sum / len(marks)
+        print(f"Average of {marks[0]}, {marks[1]} and {marks[2]} = {average}")
 student_1 = Students("Abdullah Ahamad", [10,20,30])
 student_1.get_average()
