@@ -38,16 +38,19 @@ class Accounts :
     def debt (self,amount) :
         self.balance -= amount 
         print(f"{amount} rupees debited from your account : {self.account_number}")
+        self.print_balance()
         
     
     def credit (self,amount) :
         self.balance += amount
         print(f"{amount} is credited in your account")
+        self.print_balance()
     
     def print_balance (self) :
         print("Account balance : ", self.balance)
         
-user_1 = Accounts(499999,1234567890)
-user_1.debt(9999999999999999)
-user_1.credit(2222222)
+
+user_1 = Accounts(10000,123456789)
 user_1.print_balance()
+user_1.debt(5000)
+user_1.credit(12000)
