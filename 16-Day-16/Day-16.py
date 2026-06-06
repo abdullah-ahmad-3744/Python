@@ -30,17 +30,24 @@ print()
 # Create an Account class with two attributes , account number and balance. Create methods for debt, credit and priting balance.
 
 class Accounts :
-    account_number = None
-    balance = 0.0
+    def __init__ (self, balance, acc) :
+        self.account_number = acc
+        self.balance = balance
+        
     
-    def debt (self) :
-        print("Amount is debited")
+    def debt (self,amount) :
+        self.balance -= amount 
+        print(f"{amount} rupees debited from your account : {self.account_number}")
+        
     
-    def credit (self) :
-        print("Amount is credited")
+    def credit (self,amount) :
+        self.balance += amount
+        print(f"{amount} is credited in your account")
     
     def print_balance (self) :
-        print("Account balance : ", balance)
+        print("Account balance : ", self.balance)
         
-user_1 = Accounts()
-user_1.credit()
+user_1 = Accounts(499999,1234567890)
+user_1.debt(9999999999999999)
+user_1.credit(2222222)
+user_1.print_balance()
