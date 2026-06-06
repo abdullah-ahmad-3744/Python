@@ -24,6 +24,23 @@ car_1.start_car()
 print("=========================================================")
 car_1.stop_car()
 
+print("=========================================================================")
+print()
+print()
 # Create an Account class with two attributes , account number and balance. Create methods for debt, credit and priting balance.
 
-
+class Accounts :
+    account_number = None
+    balance = 0.0
+    
+    def debt (self) :
+        print("Amount is debited")
+    
+    def credit (self) :
+        print("Amount is credited")
+    
+    def print_balance (self) :
+        print("Account balance : ", balance)
+        
+user_1 = Accounts()
+user_1.credit()
