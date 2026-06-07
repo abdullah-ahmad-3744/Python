@@ -1,0 +1,1 @@
+# Multiple inheritence in Python
